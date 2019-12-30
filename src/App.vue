@@ -3,9 +3,9 @@
 
     <div id="nav">
       <div class="navLogo">
-
+        DSC CUHK
       </div>
-      
+
       <div class="navLink">
         <router-link to="/about">About</router-link>
         <router-link to="">Workshops</router-link>
@@ -21,6 +21,11 @@
 <style lang="scss">
 body {
   margin: 0;
+}
+.navLogo {
+  position: absolute;
+  float: left;
+  margin-left: 15%;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -53,6 +58,6 @@ body {
   grid-template-columns: 70px 110px 70px 70px;
   font-size: 15px;
   float: right;
-  margin-right: 10%;
+  margin-right: 15%;
 }
 </style>
