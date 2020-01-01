@@ -7,10 +7,10 @@
       </div>
 
       <div class="navLink">
-        <router-link to="/about">About</router-link>
-        <router-link to="">Workshops</router-link>
-        <router-link to="">Teams</router-link>
-        <router-link to="">FAQ</router-link>
+        <a href="#abt">About</a>
+        <a href="#evts">Workshops</a>
+        <a href="">Teams</a>
+        <a href="">FAQ</a>
       </div>
     </div>
     <router-view/>
@@ -19,6 +19,13 @@
 </template>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
 body {
   margin: 0;
 }
@@ -28,7 +35,7 @@ body {
   margin-left: 15%;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Product Sans', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,15 +47,17 @@ body {
   height: 60px;
   background-color: white;
   box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.10);
+  top: 0;
   position: sticky;
   position:-webkit-sticky;
+  z-index: 9999;
   a {
     font-weight: bold;
     color: #2c3e50;
     text-decoration: None;
-    &.router-link-exact-active {
-      color: black;
-    }
+  }
+  a:hover {
+    color: black;
   }
 }
 
@@ -59,5 +68,33 @@ body {
   font-size: 15px;
   float: right;
   margin-right: 15%;
+}
+// To handle cards and all...
+.cardContainer {
+  text-align: left;
+  padding-top: 1.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.Cards {
+  background-color: white;
+  border-radius: 7px;
+  min-width: 50px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  /*padding: 20px;*/
+  padding: 50px 30px 0 30px;
+  width: 330px;
+  height: 250px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.10);
+  transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 </style>

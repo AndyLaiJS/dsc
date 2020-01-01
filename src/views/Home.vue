@@ -5,7 +5,6 @@
       <div class="Content">
         <h1> Developer Student Club @ CUHK </h1>
         <p> 
-          Developer Student Club @ CUHK
           Developer Student Clubs is a
           <b>
           <span id="gblue">G</span>
@@ -15,37 +14,49 @@
           <span id="ggre">l</span>
           <span id="gred">e</span> 
           </b>
-          Developers program for university 
-          students to learn <span id="gred"><b>mobile</b></span> and <span id="ggre"><b>web
+          Developers program designed for university 
+          students to learn and sharpen their <span id="gred"><b>mobile</b></span> and <span id="ggre"><b>web
           development skills</b></span>, <span id="gblue"><b>design thinking skills</b></span> 
           and <span id="gyel"><b>leadership skills</b></span>.
         </p>
       </div>
 
       <div class="doodle">
-          DOODLE DOODLE DOODLE DOODLE DOODLE
+
       </div>
 
     </div>
 
-    <about/>
+    <span id="abt">
+      <about/>
+    </span>
+
+    <span id="evts">
+      <events/>
+    </span>
+
   </div>
 </template>
 
 <script>
 import about from "./About"
+import events from "./Events"
 export default {
   components: {
-    about
+    about,
+    events,
   },
 }
 </script>
 <style>
-h1 {
+h1, h2, h3 {
   color: #212121;
 }
 </style>
 <style scoped lang="scss">
+h1 {
+  letter-spacing: 1px;
+}
 #gblue {
   color: #4285F4;
 }
@@ -70,9 +81,5 @@ h1 {
   p {
     font-size: 20px;
   }
-}
-.About {
-  padding: 3% 0 3% 0;
-  background-color: #fafafa;
 }
 </style>
