@@ -22,7 +22,7 @@
       </div>
 
       <div class="doodle">
-
+        doodle
       </div>
 
     </div>
@@ -35,16 +35,22 @@
       <events/>
     </span>
 
+    <span id="team">
+      <teams/>
+    </span>
+
   </div>
 </template>
 
 <script>
 import about from "./About"
 import events from "./Events"
+import teams from "./Teams"
 export default {
   components: {
     about,
     events,
+    teams,
   },
 }
 </script>
@@ -72,6 +78,7 @@ h1 {
 .IntroSection {
   padding: 10% 0 10% 0;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .Content {

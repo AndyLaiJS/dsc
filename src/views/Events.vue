@@ -12,9 +12,13 @@
                 </div>
                 <div class="Details">
                     <h3>Test</h3>
+                    <p>Venue</p>
+                    <p>Date</p>
+                    <p>Time</p>
                 </div>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -36,6 +40,7 @@ h1 {
     height: 400px;
 }
 .imgBox {
+    margin: 25%;
     font-size: 40px;
     font-weight: bolder;
     color: #DCDFE6;

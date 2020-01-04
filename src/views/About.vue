@@ -1,10 +1,10 @@
 <template>
   <div class="About">
     <h1> About </h1>
-    We bridge the gap between Theory and Practical Application for student developers.
+    <span id="cnt">We bridge the gap between theory and practical application for student developers.</span>
 
     <br><br>
-    
+
     <div class="cardContainer">
       <div class="Cards">
         <h2>Why DSC</h2>

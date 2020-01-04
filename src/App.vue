@@ -19,6 +19,34 @@
 </template>
 
 <style lang="scss">
+@media screen and (max-width: 400px) {
+  #app {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .About {
+    padding: 2% 5% 3% 5% !important;
+  }
+  .IntroSection {
+    padding: 10% 7% 10% 7% !important;
+  }
+  .Content {
+    width: 100% !important;
+    margin: 0% !important;
+    text-align: center !important;
+  }
+
+  #nav {
+    height: 120px !important;
+    min-height: 60px !important;
+  }
+  .navLogo {
+    width: 100% !important;
+    margin: 0 !important;
+    float: none !important;
+  }
+}
 @font-face {
   font-family: 'Product Sans';
   font-style: normal;
@@ -30,7 +58,6 @@ body {
   margin: 0;
 }
 .navLogo {
-  position: absolute;
   float: left;
   margin-left: 15%;
 }
@@ -91,7 +118,7 @@ body {
   /*padding: 20px;*/
   padding: 50px 30px 0 30px;
   width: 330px;
-  height: 250px;
+  min-height: 250px;
   box-shadow: 0 0 15px rgba(0,0,0,0.10);
   transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
   position: relative;
