@@ -11,10 +11,10 @@
                     img
                 </div>
                 <div class="Details">
-                    <h3>Test</h3>
-                    <p>Venue</p>
-                    <p>Date</p>
-                    <p>Time</p>
+                    <h3>Event Name etc..</h3>
+                    <p><b>Venue</b>: Mong Man Wai LT1</p>
+                    <p><b>Date</b>: 10th February 2020</p>
+                    <p><b>Time</b>: 3:30pm - 5:30pm</p>
                 </div>
             </div>
         </div>
