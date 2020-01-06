@@ -9,12 +9,13 @@
 
             <div class="Cards">
 
-                <div class="imgBox">
-                    img
+                <div class="overlay">
+                    <!-- the card header overlay thing -->
                 </div>
-                <div class="Details">
-                    <h3>Test</h3>
-                    <p>Test</p>
+
+                <div class="info">
+                    Google Leader
+                    <p>Social media icons</p>
                 </div>
 
             </div>
@@ -33,7 +34,25 @@ export default {
 
 <style scoped>
 .Team {
-  padding: 2% 0 3% 0;
-  background-color: #fafafa;
+    padding: 2% 0 3% 0;
+    background-color: #fafafa;
+}
+/* This to make the blue overlay complete, by having no padding */
+.Cards {
+    width: 350px;
+    padding: 0;
+}
+.overlay {
+    background-color: #4285F4;
+    width: 100%;
+    height: 40%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+.info {
+    padding: 10px;
+    margin-top: 40%;
+    text-align: center;
 }
 </style>
