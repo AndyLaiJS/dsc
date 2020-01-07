@@ -58,7 +58,11 @@
   font-weight: 100;
   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
-
+a {
+  text-decoration: none;
+  color: #4285F4;
+  font-weight: bold;
+}
 body {
   margin: 0;
 }
