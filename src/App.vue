@@ -10,7 +10,7 @@
         <a href="#abt">About</a>
         <a href="#evts">Workshops</a>
         <a href="#team">Teams</a>
-        <a href="">FAQ</a>
+        <a href="#faq">FAQ</a>
       </div>
     </div>
     <router-view/>
@@ -40,6 +40,11 @@
   #nav {
     height: 120px !important;
     min-height: 60px !important;
+  }
+  .navLink {
+    float: none !important;
+    justify-content: center !important;
+    margin: 0 !important;
   }
   .navLogo {
     width: 100% !important;

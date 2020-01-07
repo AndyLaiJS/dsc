@@ -39,6 +39,10 @@
       <teams/>
     </span>
 
+    <span id="faq">
+      <faq/>
+    </span>
+
     <thefooter/>
 
   </div>
@@ -49,12 +53,14 @@ import about from "./About"
 import events from "./Events"
 import teams from "./Teams"
 import thefooter from "./Footer"
+import faq from "./FAQ"
 export default {
   components: {
     about,
     events,
     teams,
     thefooter,
+    faq,
   },
 }
 </script>
