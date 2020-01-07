@@ -153,4 +153,8 @@ button {
   font-size: 13px;
   padding: 12px 55px;
 }
+button:hover {
+  background-color: #42a5f5;
+  box-shadow: 0px 0px 5px 0px rgba(66,165,245,0.5);
+}
 </style>
