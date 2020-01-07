@@ -39,6 +39,8 @@
       <teams/>
     </span>
 
+    <thefooter/>
+
   </div>
 </template>
 
@@ -46,11 +48,13 @@
 import about from "./About"
 import events from "./Events"
 import teams from "./Teams"
+import thefooter from "./Footer"
 export default {
   components: {
     about,
     events,
     teams,
+    thefooter,
   },
 }
 </script>
@@ -62,18 +66,6 @@ h1, h2, h3 {
 <style scoped lang="scss">
 h1 {
   letter-spacing: 1px;
-}
-#gblue {
-  color: #4285F4;
-}
-#gred {
-  color: #DB4437;
-}
-#ggre {
-  color: #0F9D58;
-}
-#gyel {
-  color: #F4B400;
 }
 .IntroSection {
   padding: 10% 0 10% 0;

@@ -9,7 +9,7 @@
       <div class="navLink">
         <a href="#abt">About</a>
         <a href="#evts">Workshops</a>
-        <a href="">Teams</a>
+        <a href="#team">Teams</a>
         <a href="">FAQ</a>
       </div>
     </div>
@@ -123,5 +123,29 @@ body {
   transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
   position: relative;
   overflow: hidden;
+}
+
+// Colours
+#gblue {
+  color: #4285F4;
+}
+#gred {
+  color: #DB4437;
+}
+#ggre {
+  color: #0F9D58;
+}
+#gyel {
+  color: #F4B400;
+}
+
+// Button
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: #4285F4;
+  color: white;
+  font-size: 13px;
+  padding: 12px 55px;
 }
 </style>

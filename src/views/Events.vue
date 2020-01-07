@@ -8,13 +8,15 @@
         <div class="cardContainer">
             <div class="Cards">
                 <div class="imgBox">
-                    img
+                    <img src="../assets/flutter102.jpeg">
                 </div>
                 <div class="Details">
-                    <h3>Event Name etc..</h3>
-                    <p><b>Venue</b>: Mong Man Wai LT1</p>
-                    <p><b>Date</b>: 10th February 2020</p>
-                    <p><b>Time</b>: 3:30pm - 5:30pm</p>
+                    <h3>Flutter 102</h3>
+                    <p><b id="gblue">Venue</b>: SHB 833</p>
+                    <p><b id="gred">Date</b>: 13th January 2020</p>
+                    <p><b id="ggre">Time</b>: 7:00pm - 9:00pm</p>
+                    <p style="font-size: 20px;"></p>
+                    <button>RSVP</button>
                 </div>
             </div>
         </div>
@@ -37,10 +39,9 @@ h1 {
 }
 .Cards {
     padding: 0;
-    height: 400px;
+    height: 428px;
 }
 .imgBox {
-    margin: 25%;
     font-size: 40px;
     font-weight: bolder;
     color: #DCDFE6;
@@ -49,10 +50,14 @@ h1 {
     align-items: center;
     align-content: center;
     justify-content: center;
+    overflow: hidden;
+    height: 200px;
 }
 .imgBox img {
+    margin: 270px 0 0 0;
     width: 100%;
-    margin: auto; /*To vertically align*/
+    top: 0;
+    bottom: 0;
     position: relative;
 }
 .Details {

@@ -14,7 +14,8 @@
                 </div>
 
                 <div class="info">
-                    Google Leader
+                    <h3>Name</h3>
+                    <span style="color: #212121;"> Google Leader </span>
                     <p>Social media icons</p>
                 </div>
 
@@ -33,6 +34,9 @@ export default {
 </script>
 
 <style scoped>
+h3 {
+    margin: 3px;
+}
 .Team {
     padding: 2% 0 3% 0;
     background-color: #fafafa;
