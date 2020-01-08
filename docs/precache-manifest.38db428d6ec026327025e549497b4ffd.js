@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "348444960f082f60ae63",
-    "url": "/dsc/css/app.19efd21e.css"
+    "revision": "97f1abaac8870563c931",
+    "url": "/dsc/css/app.ea5fa51e.css"
   },
   {
     "revision": "244b6bdd4dbfede62d769c2c806ab040",
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/img/lightbulb.35f4aa98.png"
   },
   {
-    "revision": "345e5c2349ea68c6d144866c5a3ba1f9",
+    "revision": "3c8a68c5a326fcaf4298b27ebd80f87a",
     "url": "/dsc/index.html"
   },
   {
-    "revision": "348444960f082f60ae63",
-    "url": "/dsc/js/app.e0e0b97f.js"
+    "revision": "97f1abaac8870563c931",
+    "url": "/dsc/js/app.4e8e1acf.js"
   },
   {
     "revision": "c704909d83c4ccd5070e",
