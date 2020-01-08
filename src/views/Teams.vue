@@ -7,14 +7,26 @@
 
         <div class="cardContainer">
 
-            <div class="Cards">
+            <div class="Cards" style="width: 450px; margin-right: 15%; margin-left: 15%;">
 
                 <div class="overlay">
                     <!-- the card header overlay thing -->
                 </div>
+                <div class="info" style="margin-top: 25%;">
+                    <h3>h</h3>
+                    <span style="color: #212121;"> Google Leader </span>
+                    <p>Social media icons</p>
+                </div>
 
+            </div>
+
+            <div class="Cards" v-for="(value, index) in names" v-bind:key = "value.index">
+
+                <div class="overlay">
+                    <!-- the card header overlay thing -->
+                </div>
                 <div class="info">
-                    <h3>Name</h3>
+                    <h3>{{value}}</h3>
                     <span style="color: #212121;"> Google Leader </span>
                     <p>Social media icons</p>
                 </div>
@@ -29,7 +41,11 @@
 
 <script>
 export default {
-    
+    data() {
+        return {
+            names: ["Person A", "Person B", "Person C", "Person D", "Person E"],
+        };
+    },
 }
 </script>
 
@@ -41,9 +57,13 @@ h3 {
     padding: 2% 0 3% 0;
     background-color: #fafafa;
 }
+.cardContainer {
+    margin: 0 15%;
+}
 /* This to make the blue overlay complete, by having no padding */
 .Cards {
     width: 350px;
+    height: 250px;
     padding: 0;
 }
 .overlay {
