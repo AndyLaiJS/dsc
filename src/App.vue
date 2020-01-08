@@ -36,6 +36,16 @@
     margin: 0% !important;
     text-align: center !important;
   }
+  .footerBody {
+    text-align: center !important;
+    justify-content: center !important;
+    #right {
+      text-align: center !important;
+    }
+    .socialIcon {
+      justify-content: center !important;
+    }
+  }
 
   #nav {
     height: 120px !important;
