@@ -22,7 +22,7 @@
       </div>
 
       <div class="doodle">
-        doodle
+        <img style="height: 250px" src="../assets/orange.png">
       </div>
 
     </div>
@@ -86,5 +86,8 @@ h1 {
   p {
     font-size: 20px;
   }
+}
+.doodle {
+  margin: 0 auto;
 }
 </style>
