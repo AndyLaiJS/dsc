@@ -14,7 +14,7 @@
             <p>Copyright © 2020 | All rights reserved.</p>
             
         </span>
-        
+
         <span id="right">
             <h1>#dsc.cuhk</h1>
                 <div class="socialIcon">
@@ -54,6 +54,7 @@ h2 {
     justify-content: space-between;
     background-color: white;
     padding: 75px 15%;
+    margin-top: 10px;
 }
 .socialIcon {
     display: grid;
