@@ -7,16 +7,26 @@
       </div>
 
       <div class="navLink">
-        <a href="#abt">About</a>
-        <a href="#evts">Workshops</a>
-        <a href="#team">Teams</a>
-        <a href="#faq">FAQ</a>
+        <a @click="goto('abt')">About</a>
+        <a @click="goto('evts')">Workshops</a>
+        <a @click="goto('team')">Teams</a>
+        <a @click="goto('faq')">FAQ</a>
       </div>
     </div>
     <router-view/>
 
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    goto(theID) {
+      document.getElementById(theID).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 @media screen and (max-width: 400px) {
@@ -48,15 +58,23 @@
   }
 
   #nav {
-    height: 120px !important;
+    height: 90px !important;
     min-height: 60px !important;
   }
   .navLink {
+    font-size: 14px !important;
+    height: 45px !important;
     float: none !important;
     justify-content: center !important;
     margin: 0 !important;
+    a {
+      height: 45px !important;
+      line-height: 45px !important;
+    }
   }
   .navLogo {
+    height: 45px;
+    line-height: 60px !important;
     width: 100% !important;
     margin: 0 !important;
     float: none !important;
