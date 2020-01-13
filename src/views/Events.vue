@@ -16,7 +16,13 @@
                     <p><b id="gred">Date</b>: 13th January 2020</p>
                     <p><b id="ggre">Time</b>: 7:00pm - 9:00pm</p>
                     <p style="font-size: 20px;"></p>
-                    <button>RSVP</button>
+
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSenTZ_TEU6cEBX9KGHB58rKtZ_F7bxh50TpX54ftQZwWP7u7A/viewform">
+                    <button>
+                        RSVP
+                    </button>
+                    </a>
+                    
                 </div>
             </div>
         </div>
