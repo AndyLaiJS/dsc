@@ -12,9 +12,12 @@
                 <div class="overlay">
                     <!-- the card header overlay thing -->
                 </div>
-                <div class="info" style="margin-top: 25%;">
-                    <h3>h</h3>
-                    <span style="color: #212121;"> Google Leader </span>
+                <div class="pic">
+                    <img src="../assets/DSC/0.jpg">
+                </div>
+                <div class="info">
+                    <h3>Nikunj Taneja</h3>
+                    <span style="color: #212121;"> DSC Lead </span>
                     <p>Social media icons</p>
                 </div>
 
@@ -49,7 +52,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 h3 {
     margin: 3px;
 }
@@ -74,9 +77,27 @@ h3 {
     bottom: 0;
     position: absolute;
 }
+.pic {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+.pic img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+}
 .info {
-    padding: 10px;
-    margin-top: 40%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     text-align: center;
 }
 </style>
