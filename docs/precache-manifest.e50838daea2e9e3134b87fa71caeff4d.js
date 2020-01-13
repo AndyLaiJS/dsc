@@ -1,7 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da6702a92724c68ae3cf",
-    "url": "/dsc/css/app.c80bb3f3.css"
+    "revision": "a5d260200839500b42bc",
+    "url": "/dsc/css/app.7126219e.css"
+  },
+  {
+    "revision": "5d23b061bb2c0c1415b376b80caed6b4",
+    "url": "/dsc/img/0.5d23b061.jpg"
+  },
+  {
+    "revision": "a5ff9b2f9487539fca7f9f367b868592",
+    "url": "/dsc/img/DSC-Logo.a5ff9b2f.png"
   },
   {
     "revision": "244b6bdd4dbfede62d769c2c806ab040",
@@ -24,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/img/orange.8dcd7180.png"
   },
   {
-    "revision": "aec52db44d31232326ab0e63c71d5a34",
+    "revision": "b3764e3041e92d2926c9d0dc4d25c9d7",
     "url": "/dsc/index.html"
   },
   {
-    "revision": "da6702a92724c68ae3cf",
-    "url": "/dsc/js/app.71ee7e7e.js"
+    "revision": "a5d260200839500b42bc",
+    "url": "/dsc/js/app.c8b22ce2.js"
   },
   {
     "revision": "c704909d83c4ccd5070e",
