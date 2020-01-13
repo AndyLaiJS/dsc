@@ -5,7 +5,7 @@
       <div class="Content">
         <h1> Developer Student Club @ CUHK </h1>
         <p> 
-          Developer Student Clubs is a
+          Developer Student Clubs are university-based community clubs powered by 
           <b>
           <span id="gblue">G</span>
           <span id="gred">o</span>
@@ -14,10 +14,9 @@
           <span id="ggre">l</span>
           <span id="gred">e</span> 
           </b>
-          Developers program designed for university 
-          students to learn and sharpen their <span id="gred"><b>mobile</b></span> and <span id="ggre"><b>web
+          Developers designed to inspire and sharpen university students' <span id="gred"><b>mobile</b></span> and <span id="ggre"><b>web
           development skills</b></span>, <span id="gblue"><b>design thinking skills</b></span> 
-          and <span id="gyel"><b>leadership skills</b></span>.
+          and <span id="gyel"><b>leadership skills</b></span>. 
         </p>
       </div>
 
