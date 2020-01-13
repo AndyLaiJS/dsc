@@ -3,7 +3,8 @@
 
     <div id="nav">
       <div class="navLogo">
-        DSC CUHK
+        <img style="height: 25px;" src="./assets/DSC-Logo.png">
+        Developer Student Club CUHK
       </div>
 
       <div class="navLink">
@@ -35,7 +36,7 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
-  .About {
+  .About, .Team {
     padding: 2% 5% 3% 5% !important;
   }
   .IntroSection {
@@ -56,9 +57,13 @@ export default {
       justify-content: center !important;
     }
   }
+  .Cards{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
 
   #nav {
-    height: 90px !important;
+    height: 110px !important;
     min-height: 60px !important;
   }
   .navLink {
@@ -95,6 +100,14 @@ body {
   margin: 0;
 }
 .navLogo {
+  img {
+    margin-top: 15px;
+  }
+  display: grid;
+  grid-template-columns: 50px 220px;
+  justify-content: center;
+  text-align: left;
+  height: 60px;
   float: left;
   margin-left: 15%;
 }
