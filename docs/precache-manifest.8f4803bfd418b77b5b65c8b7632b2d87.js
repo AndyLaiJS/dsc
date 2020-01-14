@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/DSC/9.png"
   },
   {
-    "revision": "6003b92584412469fe9d",
-    "url": "/dsc/css/app.372a497e.css"
+    "revision": "8fee23287f7d4cd4262e",
+    "url": "/dsc/css/app.30f035d4.css"
   },
   {
     "revision": "f130a0b70e386170cf6f011c0ca8c4f4",
@@ -136,12 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/img/orange.8dcd7180.png"
   },
   {
-    "revision": "66a24328e5bb5ce362a6909022f89b24",
+    "revision": "0b13f539f46008d37ae9c51ca9e7c432",
     "url": "/dsc/index.html"
   },
   {
-    "revision": "6003b92584412469fe9d",
-    "url": "/dsc/js/app.5a3c6c4f.js"
+    "revision": "8fee23287f7d4cd4262e",
+    "url": "/dsc/js/app.695ded87.js"
   },
   {
     "revision": "c704909d83c4ccd5070e",
