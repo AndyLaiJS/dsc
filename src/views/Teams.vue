@@ -7,13 +7,13 @@
 
         <div class="cardContainer">
 
-            <div class="Cards" style="width: 450px; margin-right: 15%; margin-left: 15%;">
+            <div class="Cards" style="width: 450px; height:300px; margin-right: 15%; margin-left: 15%;">
 
                 <div class="overlay">
                     <!-- the card header overlay thing -->
                 </div>
-                <div class="pic">
-                    <img src="../assets/DSC/0.png">
+                <div class="pic" style="height: 145px; width: 145px;">
+                    <img style="height: 145px; width: 145px;" src="../assets/DSC/0.png">
                 </div>
                 <div class="info">
                     <h3>Nikunj Taneja</h3>
