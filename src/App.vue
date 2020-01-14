@@ -2,7 +2,7 @@
   <div id="app">
 
     <div id="nav">
-      <div class="navLogo">
+      <div class="navLogo" @click="refresh()">
         <img style="height: 25px;" src="./assets/DSC-Logo.png">
         Developer Student Club CUHK
       </div>
@@ -24,6 +24,10 @@ export default {
   methods: {
     goto(theID) {
       document.getElementById(theID).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    },
+    refresh() {
+      window.scrollTo(0, 0);
+      console.log("hi");
     }
   }
 }
