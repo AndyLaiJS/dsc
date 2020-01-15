@@ -4,7 +4,7 @@
     <div id="nav">
       <div class="navLogo" @click="refresh()">
         <img style="height: 25px;" src="./assets/DSC-Logo.png">
-        Developer Student Club CUHK
+        Developer Student Clubs CUHK
       </div>
 
       <div class="navLink">
@@ -171,8 +171,8 @@ body {
   border-radius: 7px;
   min-width: 50px;
   margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 25px;
   /*padding: 20px;*/
   padding: 50px 30px 0 30px;
