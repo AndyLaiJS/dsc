@@ -5,7 +5,7 @@
         <div class="bodyContent">
             <span>
                 <h3>Do I need to be a CS student to join?</h3>
-                <p>No, <b id="gred">anyone</b> and <b id="gred">everyone is welcomed</b> to join the event, regardless of your major and background. After all, we are all here
+                <p>No, <b id="ggre">anyone</b> and <b id="ggre">everyone is welcomed</b> to join the event, regardless of your major and background. After all, we are all here
                     to learn something new!
                 </p>
             </span>
@@ -13,7 +13,7 @@
             <span>
                 <h3>What do I have to bring to the event?</h3>
                 <p>We recommend you bring a notebook, pen, and a laptop when attending these events, but the most important of all is
-                    to carry a strong and healthy dose of <b id="ggre">curiosity</b> and <b id="ggre">enthusiasm</b>!
+                    to carry a strong and healthy dose of <b id="gred">curiosity</b> and <b id="gred">enthusiasm</b>!
                 </p>
             </span>
 
