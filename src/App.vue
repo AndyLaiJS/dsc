@@ -27,7 +27,6 @@ export default {
     },
     refresh() {
       window.scrollTo(0, 0);
-      console.log("hi");
     }
   }
 }
@@ -104,6 +103,7 @@ body {
   margin: 0;
 }
 .navLogo {
+  cursor: pointer;
   img {
     margin-top: 15px;
   }
@@ -114,6 +114,11 @@ body {
   height: 60px;
   float: left;
   margin-left: 15%;
+  transition: linear 0.1s;
+}
+.navLogo:active {
+  transform: scale(0.97);
+  transition: linear 0.1s;
 }
 #app {
   font-family: 'Product Sans', 'Avenir', Helvetica, Arial, sans-serif;
