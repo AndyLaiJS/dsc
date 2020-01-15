@@ -62,7 +62,7 @@ h2 {
     justify-content: end;
     justify-items: center;
 }
-img {
+#right img {
     filter: invert(100%);
 }
 </style>
