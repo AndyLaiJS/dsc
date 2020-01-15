@@ -63,11 +63,13 @@ export default {
   },
 }
 </script>
+
 <style>
 h1, h2, h3 {
   color: #212121;
 }
 </style>
+
 <style scoped lang="scss">
 h1 {
   letter-spacing: 1px;
