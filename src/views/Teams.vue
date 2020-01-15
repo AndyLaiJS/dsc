@@ -20,7 +20,6 @@
                     <span style="color: #212121;"> DSC Lead </span>
                     <p>Social media icons</p>
                 </div>
-
             </div>
 
             <div class="Cards" v-for="(value, index) in names" v-bind:key = "index">
