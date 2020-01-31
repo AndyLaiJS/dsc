@@ -39,6 +39,9 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
+  #cardBig {
+    min-width: 20px !important;
+  }
   .About, .Team {
     padding: 2% 5% 3% 5% !important;
   }
