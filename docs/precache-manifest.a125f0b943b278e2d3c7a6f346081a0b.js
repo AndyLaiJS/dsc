@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/DSC/9.png"
   },
   {
-    "revision": "8fee23287f7d4cd4262e",
-    "url": "/dsc/css/app.30f035d4.css"
+    "revision": "e8cdd26304154f2bbaff",
+    "url": "/dsc/css/app.2a9466eb.css"
   },
   {
     "revision": "f130a0b70e386170cf6f011c0ca8c4f4",
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/icons/mstile-150x150.png"
   },
   {
-    "revision": "f22d501a35a87d9f21701cb031f6ea17",
+    "revision": "f78c0251d6ddd56ee219a1830ded71b4",
     "url": "/dsc/icons/safari-pinned-tab.svg"
   },
   {
@@ -136,12 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/img/orange.8dcd7180.png"
   },
   {
-    "revision": "0b13f539f46008d37ae9c51ca9e7c432",
+    "revision": "58e6513b7475d4a228e106933d363e51",
     "url": "/dsc/index.html"
   },
   {
-    "revision": "8fee23287f7d4cd4262e",
-    "url": "/dsc/js/app.695ded87.js"
+    "revision": "e8cdd26304154f2bbaff",
+    "url": "/dsc/js/app.f4f68d65.js"
   },
   {
     "revision": "c704909d83c4ccd5070e",
@@ -156,7 +156,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/manifest.json"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "/dsc/robots.txt"
   }
 ]);
