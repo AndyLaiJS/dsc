@@ -73,6 +73,7 @@ export default {
     min-height: 60px !important;
   }
   .navLink {
+    cursor: pointer;
     font-size: 14px !important;
     height: 45px !important;
     float: none !important;
