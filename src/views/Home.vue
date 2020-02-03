@@ -21,7 +21,7 @@
       </div>
 
       <div class="doodle">
-        <img style="height: 250px" src="../assets/orange.png">
+        <img style="height: 400px" src="../assets/illustration.png">
       </div>
 
     </div>
@@ -75,7 +75,7 @@ h1 {
   letter-spacing: 1px;
 }
 .IntroSection {
-  padding: 10% 0 10% 0;
+  padding: 10% 0 5% 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -90,5 +90,9 @@ h1 {
 }
 .doodle {
   margin: 0 auto;
+  img {
+    padding-right: 50px;
+    margin-top: -50px;
+  }
 }
 </style>

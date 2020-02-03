@@ -39,6 +39,10 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
+  .Cards {
+    min-width: 145px !important;
+    min-height: 305px !important;
+  }
   .About, .Team {
     padding: 2% 5% 3% 5% !important;
   }
