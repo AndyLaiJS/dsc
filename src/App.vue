@@ -39,9 +39,8 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
-  .Cards {
-    min-width: 145px !important;
-    min-height: 305px !important;
+  #cardBig {
+    min-width: 20px !important;
   }
   .About, .Team {
     padding: 2% 5% 3% 5% !important;
@@ -152,6 +151,7 @@ body {
 }
 
 .navLink {
+  cursor: pointer;
   display: grid;
   text-align: center;
   grid-template-columns: 70px 110px 70px 70px;

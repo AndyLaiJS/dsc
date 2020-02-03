@@ -7,7 +7,7 @@
 
         <div class="cardContainer">
 
-            <div class="Cards" style="min-width: 450px; min-height:300px; margin-right: 50%; margin-left: 50%;">
+            <div class="Cards" id="cardBig" style="min-width: 450px; min-height:300px; margin-right: 50%; margin-left: 50%;">
 
                 <div class="overlay">
                     <!-- the card header overlay thing -->

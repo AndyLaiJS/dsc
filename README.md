@@ -3,6 +3,11 @@ This was where the project of building a replacement website for CUHK's Google D
 
 Numerous efforts to bring the design language of Google into this project, including the colour scheme and the font. Feel free to play around with the project. The project is built on VueJS, so make sure to have it installed on your system.
 
+### To preview the webpage
+```
+https://andyphoenix9879.github.io/dsc/
+```
+
 ### To compile and hot-reloads for development
 ```
 npm run serve
