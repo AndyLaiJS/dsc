@@ -73,7 +73,6 @@ export default {
     min-height: 60px !important;
   }
   .navLink {
-    cursor: pointer;
     font-size: 14px !important;
     height: 45px !important;
     float: none !important;
@@ -152,6 +151,7 @@ body {
 }
 
 .navLink {
+  cursor: pointer;
   display: grid;
   text-align: center;
   grid-template-columns: 70px 110px 70px 70px;
