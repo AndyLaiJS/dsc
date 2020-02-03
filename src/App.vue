@@ -151,6 +151,7 @@ body {
 }
 
 .navLink {
+  cursor: pointer;
   display: grid;
   text-align: center;
   grid-template-columns: 70px 110px 70px 70px;
