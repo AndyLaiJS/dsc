@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/DSC/9.png"
   },
   {
-    "revision": "e8cdd26304154f2bbaff",
-    "url": "/dsc/css/app.2a9466eb.css"
+    "revision": "39a59ba37df0f1988fbd",
+    "url": "/dsc/css/app.4599b33f.css"
   },
   {
     "revision": "f130a0b70e386170cf6f011c0ca8c4f4",
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/icons/mstile-150x150.png"
   },
   {
-    "revision": "f78c0251d6ddd56ee219a1830ded71b4",
+    "revision": "f22d501a35a87d9f21701cb031f6ea17",
     "url": "/dsc/icons/safari-pinned-tab.svg"
   },
   {
@@ -128,20 +128,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/img/handshake.611b7985.png"
   },
   {
+    "revision": "a1c2f132df8c4debe24233f2afd72cad",
+    "url": "/dsc/img/illustration.a1c2f132.png"
+  },
+  {
     "revision": "35f4aa98635d5850ce7b1b1cf3240996",
     "url": "/dsc/img/lightbulb.35f4aa98.png"
   },
   {
-    "revision": "8dcd7180b4d33097eb66479e9a755c2a",
-    "url": "/dsc/img/orange.8dcd7180.png"
-  },
-  {
-    "revision": "58e6513b7475d4a228e106933d363e51",
+    "revision": "afd6e8070130d24f6cd637b0448386b6",
     "url": "/dsc/index.html"
   },
   {
-    "revision": "e8cdd26304154f2bbaff",
-    "url": "/dsc/js/app.f4f68d65.js"
+    "revision": "39a59ba37df0f1988fbd",
+    "url": "/dsc/js/app.6b05b1b2.js"
   },
   {
     "revision": "c704909d83c4ccd5070e",
@@ -156,7 +156,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dsc/manifest.json"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/dsc/robots.txt"
   }
 ]);
